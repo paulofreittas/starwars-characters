@@ -10,10 +10,12 @@ Consuming the [SWAPI](https://swapi.dev/), I created an interface to consult inf
 
 ### How to execute?
 
+Execute the command, for clone the project:
+
 ```
 $ git clone git://github.com/paulofreittas/starwars-characters.git
 ```
 
-Then put the cloned directory into your `PATH`, or run `yarn` to install all dependencies.
+Then put the cloned directory into your `PATH`, run `yarn` to install all dependencies.
 
 After you finish installing all dependencies, run `yarn start` to execute project in localhost on port 3000. `http://localhost:3000/`
