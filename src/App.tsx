@@ -1,5 +1,14 @@
 import React from 'react';
 
-export default function App() {
-  return <div className="App">Teste</div>;
-}
+import GlobalStyle from './styles/global';
+
+import Home from './pages/Home';
+
+const App: React.FC = () => (
+  <>
+    <Home />
+    <GlobalStyle />
+  </>
+);
+
+export default App;
